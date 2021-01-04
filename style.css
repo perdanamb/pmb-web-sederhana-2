@@ -61,7 +61,7 @@ body {
 
 .banner img {
     display: inline-block;
-    width: 100px;
+    width: 100%;
     height: 330px;
 }
 
@@ -97,7 +97,6 @@ body {
 
 .menu-tengah {
     width: 530px;
-    margin-right: 10px;
     float: left;
 }
 
@@ -115,11 +114,75 @@ body {
     display: inline-block;
 }
 
+.tombol {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    width: 120px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
 
+.tombol:hover {
+    background-color: black;
+    transition-duration: 1s;
+}
 
+.tombol-pesan {
+    background-color: green;
+}
 
+.tombol-lengkap {
+    background-color: darkorange;
+}
 
+.menu-kanan {
+    width: 250px;
+    float: left;
+}
 
+.menu-kanan, .menu-kiri, .menu-tengah {
+    margin-bottom: 15px;
+}
+
+.footer {
+    clear: both;
+    background-color: crimson;
+    color:white;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu-artikel ul {
+    list-style-type: none;
+}
+
+.menu-artikel ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 13px;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 12px;
+    color: black;
+}
+
+.menu-artikel ul li a:hover {
+    color: darkorange;
+    border-bottom: 5px double chocolate;
+    transition-duration: .5s;
+}
+
+.kotak-1 {
+    float: right;
+    width: 23.6%;
+}
+
+.sidebar {
+    margin-left: 0;
+    padding: 0;
+    margin-right: 0px;
+}
 
 
 
